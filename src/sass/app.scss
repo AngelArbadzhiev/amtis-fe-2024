@@ -1,1 +1,38 @@
-// Продължи с твоя SCSS или обикновен CSS код тук.
+@import url("reset.scss");
+
+html{
+    background-color: #FDF8EC;
+    font-family: 'Manrope', sans-serif;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+.logo{
+    float: left;
+    padding:10px ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis:50px;
+    font-family: 'Manrope', sans-serif;
+    padding: 15px;
+
+}
+.heading{
+    font-family: 'Noto Serif', sans-serif;
+    text-align: center; 
+    color: #9B582E;
+    padding-top:75px ;
+    font-weight: 700;
+    font-size: 80px;
+}
+.diffrent-color{
+    color: #533019;
+}
+.landing-paragraph{
+    text-align: center;
+}
